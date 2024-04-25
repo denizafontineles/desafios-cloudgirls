@@ -1,0 +1,22 @@
+
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    //promp ler como texto
+
+    let vitorias = parseInt(prompt("Numero de vitorias: "));
+    let empates = parseInt(1);
+
+    let pontos = vitorias * 3 + empates 
+
+    mostra("Os pontos são: " + pontos)
+</script>
